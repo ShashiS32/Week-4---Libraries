@@ -4,4 +4,5 @@ cards=["Jack" , "Queen" , "King"]
 
 random.shuffle(cards)
 
-print(cards[1])
+for card in cards:
+    print(card)
