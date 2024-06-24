@@ -1,3 +1,7 @@
-import statistics
+import sys
 
-print(statistics.mean([100,90, 101, 150, 150] ))
+
+try:
+    print("Hello my name is", sys.argv[1 ])
+except IndexError:
+    print("Invalid # of arguments")
