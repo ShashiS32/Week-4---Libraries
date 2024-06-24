@@ -1,3 +1,7 @@
-from random import choice , randint
+import random
 
-print(randint(1,10))
+cards=["Jack" , "Queen" , "King"]
+
+random.shuffle(cards)
+
+print(cards[1])
